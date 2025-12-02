@@ -10,7 +10,7 @@ redirect_from:
 
 ## About Me
 
-I am **Longge Yuan**, a Master's student in Computer Science at **Florida State University (FSU)**, graduating in December 2025.  
+I am Longge Yuan, a Master's student in Computer Science at **Florida State University (FSU)**, graduating in December 2025.  
 My work spans **large language model optimization**, **streaming algorithms**, and **real-time intelligent monitoring systems**.
 
 I am particularly interested in:
@@ -24,7 +24,7 @@ I am particularly interested in:
 
 ### 🔹 DISP-LLM: Dimension-Independent Structural Pruning  
 *Research Assistant to Prof. Shangqian Gao, FSU*  
-I reproduced the **DISP-LLM** pruning method (NeurIPS 2024 submission) involving:
+I reproduced the DISP-LLM pruning method (NeurIPS 2024 submission) involving:
 
 - Index-based residual bypassing  
 - Hypernetwork-guided dynamic width selection  
@@ -37,9 +37,9 @@ This work contributed to the paper *“ToMoE: Converting Dense LLMs to Mixture-o
 
 ### 🔹 Optimizing LLM Inference via TinyChat Engine  
 *Course Project, Fall 2024*  
-Designed system-level optimization for a quantized LLaMA-2 inference engine using a **self-developed C++ runtime (TinyChat)** on MacBook M3 Pro:
+Designed system-level optimization for a quantized LLaMA-2 inference engine using a self-developed C++ runtime (TinyChat) on MacBook M3 Pro:
 
-- Latency reduced from **12.4s → 1.4s/token (88.7% improvement)**  
+- Latency reduced from 12.4s → 1.4s/token (88.7% improvement)  
 - Implemented custom operator fusion, memory scheduling, and cache-aware optimizations  
 - Demonstrated applicability to other LLM architectures  
 
@@ -47,7 +47,7 @@ Designed system-level optimization for a quantized LLaMA-2 inference engine usin
 
 ### 🔹 Scientific Data Compression Prediction  
 *Course Project, Spring 2025*  
-Built a model to predict **lossy compression ratio** for scientific field data:
+Built a model to predict lossy compression ratio for scientific field data:
 
 - Extracted statistical and frequency-domain features (variance, Hurst exponent, energy ratios)  
 - Trained Random Forest and XGBoost regressors  
@@ -88,7 +88,7 @@ Worked on a high-voltage converter station **DC valve hall discharge monitoring 
 
 ## Extra Activities
 
-- Served as a **university ambassador** and delivered speeches to high schools (2023)  
+- Served as a university ambassador and delivered speeches to high schools (2023)  
 - Assisted Admissions Office events as an English–Chinese translator  
 - Helped introduce academic programs to prospective students & families  
 
