@@ -7,92 +7,94 @@ author_profile: true
 
 ## About Me
 
-I am **Longge Yuan (袁龙歌)**, a Master's student in Computer Science at **Florida State University (FSU)**.  
-My interests are mainly in
+I am **Longge Yuan**, a Master's student in Computer Science at **Florida State University (FSU)**, graduating in December 2025.  
+My work spans **large language model optimization**, **streaming algorithms**, and **real-time intelligent monitoring systems**.
 
-- **High-Performance Computing (HPC) & distributed systems**
-- **Large Language Model (LLM) optimization** – pruning, compression, and efficient inference
-- **Streaming algorithms & probabilistic data structures** – such as Count-Min Sketch
-- **Scientific data analysis & compression**
-- **Intelligent monitoring systems for power grids**
+I am particularly interested in:
 
-I enjoy building systems that are not only theoretically sound, but also **engineered and benchmarked end-to-end** — from algorithms and data structures, to APIs, experiments, and visualization.
+- **LLM pruning & efficient inference**  
+- **System-level acceleration of deep models on consumer hardware**  
 
 ---
 
-## Research & Technical Interests
+## Research & Technical Work
 
-- 🔹 **LLM Compression & Pruning**  
-  - Structured pruning for LLaMA/Qwen-like models  
-  - Hypernetwork-based pruning strategies and sparsity patterns  
-  - Balancing model size, speed, and accuracy (perplexity / task performance)
+### 🔹 DISP-LLM: Dimension-Independent Structural Pruning  
+*Research Assistant to Prof. Shangqian Gao, FSU*  
+I reproduced the **DISP-LLM** pruning method (NeurIPS 2024 submission) involving:
 
-- 🔹 **Streaming Algorithms & Database Systems**  
-  - Count-Min Sketch and related sketches for frequency estimation  
-  - Approximate query processing under tight memory constraints  
-  - Building streaming services (FastAPI, load generators, evaluation pipelines)
+- Index-based residual bypassing  
+- Hypernetwork-guided dynamic width selection  
+- Pruning across OPT, LLaMA, LLaMA-2, and Phi architectures  
+- Zero-shot evaluation under different pruning ratios  
 
-- 🔹 **High-Performance Computing**  
-  - Parallel and distributed training of deep models  
-  - Memory-efficient execution and communication-aware design  
-
-- 🔹 **Power-Grid Monitoring & Multispectral Sensing**  
-  - Online monitoring of transmission lines and substations  
-  - Infrared / visible / UV multi-spectral fusion for fault detection  
-  - Edge deployment on embedded platforms and UAV / robot systems
+This work contributed to the paper *“ToMoE: Converting Dense LLMs to Mixture-of-Experts through Dynamic Structural Pruning”*, Under review for TMLR.
 
 ---
 
-## Selected Projects
+### 🔹 Optimizing LLM Inference via TinyChat Engine  
+*Course Project, Fall 2024*  
+Designed system-level optimization for a quantized LLaMA-2 inference engine using a **self-developed C++ runtime (TinyChat)** on MacBook M3 Pro:
 
-- **Database Streaming CMS System (FSU Database Project)**  
-  Built a high-throughput streaming frequency estimation service based on **Count-Min Sketch**.  
-  Implemented a FastAPI **stream server**, a **load client** for synthetic workloads, and a full evaluation of:
-  - error vs. ε under uniform and Zipfian distributions  
-  - different estimators (min / mean / CMM)  
-  - the effect of **Conservative Update (CU)** on accuracy and throughput.
-
-- **LLM Pruning & Compression**  
-  Worked on structured pruning methods for large language models (e.g., LLaMA / Qwen-style models), focusing on:
-  - reducing parameter count while preserving perplexity and downstream accuracy  
-  - exploring layer-wise importance and sparsity patterns  
-  - integrating pruning into practical inference pipelines.
-
-- **Scientific Data Compression Ratio Prediction**  
-  Built ML models (Random Forest, XGBoost, etc.) to predict **lossy compression ratios** from field data features such as variance, Hurst exponent, and frequency energy ratios, helping to choose proper compressors and settings for large-scale simulations.
-
-- **Power-Grid Multispectral Monitoring**  
-  Participated in industry collaborations around transmission-line monitoring, GIS partial discharge, and transformer vibration / ultrasonic sensing.  
-  Focused on data processing, feature extraction, and prototype software for multi-spectral fault diagnosis.
+- Latency reduced from **12.4s → 1.4s/token (88.7% improvement)**  
+- Implemented custom operator fusion, memory scheduling, and cache-aware optimizations  
+- Demonstrated applicability to other LLM architectures  
 
 ---
 
-## Experience
+### 🔹 Scientific Data Compression Prediction  
+*Course Project, Spring 2025*  
+Built a model to predict **lossy compression ratio** for scientific field data:
 
-- 🎓 **Graduate Studies in Computer Science, Florida State University**  
-  - Coursework and projects in databases, operating systems, computer vision, HPC, and machine learning.  
-  - Hands-on work with large-scale data, streaming systems, and neural network optimization.
+- Extracted statistical and frequency-domain features (variance, Hurst exponent, energy ratios)  
+- Trained Random Forest and XGBoost regressors  
+- Evaluated on large datasets (Hurricane, XGC) using R² and MAE metrics  
 
-- 🏭 **Industry Collaborations with Power-Grid Companies (China)**  
-  - Involved in R&D projects on online monitoring of high-voltage equipment.  
-  - Worked on multi-sensor fusion, signal processing, and software prototyping for field deployment.
+---
+
+## Engineering Experience
+
+### 🔹 Shanghai Cenoreach Technology Co., Ltd.  
+*Engineering Intern — Qt, C++, Java, Embedded Systems (May–Sep 2023)*  
+Worked on a high-voltage converter station **DC valve hall discharge monitoring system**:
+
+- Built real-time monitoring, remote shooting, equipment parameter control  
+- Implemented collaborative multi-sensor inspection for UV monitoring points  
+- Integrated Digital Low-Light UV cameras into Ubuntu via Ebus interface  
+
+---
+
+### 🔹 Shanghai GrandVision Technology Co., Ltd.  
+*Engineering Intern — Qt, C++, Python (May–Aug 2024)*  
+
+- Developed **infrared–visible video fusion** and corresponding GUI interfaces  
+- Converted provided Python Ebus driver into C++ implementation  
+- Built interfaces for camera stream processing and fusion visualization  
 
 ---
 
 ## Skills
 
-- **Programming:** Python, C++, Java  
-- **ML / Data:** PyTorch, scikit-learn, NumPy, Pandas, MATLAB  
-- **Systems & Backend:** FastAPI, REST APIs, basic Docker/Linux usage  
-- **Databases & Streaming:** MySQL, basic query optimization, sketch-based data structures  
-- **Tools:** Git/GitHub, LaTeX, VS Code, Jupyter, GitHub Pages / Jekyll
+- **Programming:** Python, C++, Java, PHP, C, JavaScript  
+- **Machine Learning:** PyTorch, scikit-learn  
+- **Database & Streaming:** MySQL, Oracle, probabilistic sketches  
+- **Systems & Backend:** Qt, FastAPI, C++ runtime programming, embedded Linux  
+- **Other:** Node.js, HTML/CSS, Ubuntu, Git/GitHub, LaTeX  
+
+---
+
+## Extra Activities
+
+- Served as a **university ambassador** and delivered speeches to high schools (2023)  
+- Assisted Admissions Office events as an English–Chinese translator  
+- Helped introduce academic programs to prospective students & families  
 
 ---
 
 ## Contact
 
-- GitHub: [@longgeY](https://github.com/longgeY)  
-- Email: *youremail@fsu.edu*  <!-- 把这里改成你的真实邮箱 -->
-- Personal site: [https://longgeY.github.io](https://longgeY.github.io)
+- Email: **ly23a@fsu.edu**  
+- GitHub: [https://github.com/longgeY](https://github.com/longgeY)  
+- Website: [https://longgeY.github.io](https://longgeY.github.io)
 
-If you are interested in my work or potential collaborations (research, internships, or industry projects), feel free to reach out!
+Feel free to reach out for research discussions, collaborations, or internship opportunities!
