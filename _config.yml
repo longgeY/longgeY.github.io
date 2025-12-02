@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Longge Yuan / Site Title"
+title                    : "Longge Yuan"
 title_separator          : "-"
 name                     : &name "Longge Yuan"
 description              : &description "CS Master In Florida State University"
