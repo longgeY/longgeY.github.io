@@ -1,8 +1,11 @@
 ---
-layout: archive
-title: "About"
-permalink: /about/
+permalink: /
+title: "Longge Yuan | M.S. Computer Science at Florida State University"
+
 author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
 ---
 
 ## About Me
